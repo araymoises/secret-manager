@@ -1,0 +1,9 @@
+include:
+  - project: 'sodimac-corp/cdc-pim/devops-services/cicd-templates/libraries'
+    file: 'nexus-template.yaml'
+
+stages:
+  - package
+  - test
+  - security
+  - nexus
